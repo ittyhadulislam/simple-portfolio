@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --aqua-color: #0ef;
+  --dark-blueish-color: #04496A;
+  --navbarAndFooter-background-color: #1234448e;
+  scroll-behavior: smooth;
+}
+
+:root {
+  background-color: var(--dark-blueish-color);
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden;
+}

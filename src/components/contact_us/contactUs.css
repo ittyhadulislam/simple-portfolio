@@ -1,0 +1,99 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    align-items: center;
+    gap: 3rem;
+    padding: 0px 5%;
+    margin-top: 200px;
+}
+
+.contact-text h2 {
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    font-family: var(--primary-font);
+    color: white;
+}
+
+.contact-text h2 span {
+    color: var(--aqua-color);
+}
+
+.contact-text h4 {
+    margin: 15px 0;
+    color: white;
+    line-height: 30px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
+
+.contact-text p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: var(--secondary-font);
+    margin-bottom: 2rem;
+}
+
+.contact-list {
+    margin-bottom: 3rem;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+    font-family: var(--secondary-font);
+    color: white;
+}
+
+.contact-list i {
+    display: inline-block;
+    color: var(--aqua-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    box-shadow: 0 0 5px var(--aqua-color);
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background-color: transparent;
+    border: 1px solid var(--aqua-color);
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form form input::placeholder,
+form textarea::placeholder {
+    color: white;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .send {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--aqua-color);
+    text-decoration: none;
+    color: var(--dark-blueish-color);
+    font-family: var(--secondary-font);
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.contact-form form .send:hover {
+    box-shadow: 0 0 5px var(--aqua-color), 0 0 25px var(--aqua-color);
+}
